@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const UploadCrop = () => {
+const FarmerUpload = () => {
   const [formData, setFormData] = useState({
     name: '',
     quantityKg: '',
@@ -36,7 +36,7 @@ const UploadCrop = () => {
         farmerPhone: '',
       });
     } catch (error) {
-      console.error("Upload failed ❌:", error);
+      console.error("❌ Failed to upload crop:", error);
       setSuccess(false);
     }
   };
@@ -59,4 +59,4 @@ const UploadCrop = () => {
   );
 };
 
-export default UploadCrop;
+export default FarmerUpload;
