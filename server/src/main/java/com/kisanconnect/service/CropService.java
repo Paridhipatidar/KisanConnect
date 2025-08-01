@@ -19,4 +19,9 @@ public class CropService {
     public List<Crop> getAllCrops() {
         return cropRepository.findAll();
     }
+
+	public void deleteCrop(Long id) {
+		cropRepository.deleteById(id);
+		
+	}
 }

@@ -1,16 +1,19 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import UploadCrop from "./pages/UploadCrop";
-import ViewCrops from "./pages/ViewCrops";
 import MandiRates from "./pages/MandiRates";
+import CropBazaar from "./pages/CropBazaar";
+import AdminCropManager from "./pages/AdminCropManager";
+
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<UploadCrop />} />
-        <Route path="/crops" element={<ViewCrops />} />
         <Route path="/mandi" element={<MandiRates />} />
+        <Route path="/bazaar" element={<CropBazaar />} />
+        <Route path="/admin/crops" element={<AdminCropManager />} />
       </Routes>
     </Router>
   );

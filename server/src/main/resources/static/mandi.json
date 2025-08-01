@@ -1,0 +1,7 @@
+[
+  { "crop": "Wheat", "location": "Indore", "price": 2200 },
+  { "crop": "Wheat", "location": "Ujjain", "price": 2100 },
+  { "crop": "Soybean", "location": "Indore", "price": 5200 },
+  { "crop": "Soybean", "location": "Dewas", "price": 5050 },
+  { "crop": "Rice", "location": "Ujjain", "price": 2400 }
+]
